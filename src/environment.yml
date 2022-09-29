@@ -1,0 +1,14 @@
+name: python36
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - torchvision==0.6.1
+  - cudatoolkit=10.1
+  - pytorch==1.5.1
+  - python=3.6
+  - transformers==3.0.2
+  - ipykernel
+  - scikit-learn
+prefix: /home/$user/miniconda3/envs/python36
